@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Marco Paulo Ollivier</title>
+    <link>https://ollivier.com.br/</link>
+    <description>Recent content on Marco Paulo Ollivier</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pt-br</language>
+    
+	<atom:link href="https://ollivier.com.br/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+  </channel>
+</rss>
