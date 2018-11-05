@@ -18,16 +18,15 @@ disqusShortname = "yourdiscussshortname"
     info = "Software Engineer @ OLX"
     description = "Marco Paulo Ollivier's personal website"
     keywords = "blog,developer,personal"
-    #avatarurl = "images/avatar.jpg"
+    footercontent = "Descendente intelectual de Arquimedes"
+
     avatarurl = "https://avatars1.githubusercontent.com/u/697445?s=460&v=4"
     
     favicon_32 = "/img/favicon-32x32.png"
     favicon_16 = "/img/favicon-16x16.png"
-
-    footercontent = "Descendente intelectual de Arquimedes."
-
+   
     hidecredits = false
-    hidecopyright = false
+    hidecopyright = true
 
     rtl = false
 
@@ -36,54 +35,52 @@ disqusShortname = "yourdiscussshortname"
 
 # Social links
 [[params.social]]
-    name = "Github"
-    icon = "fab fa-github fa-2x"
-    weight = 1
-    url = "https://github.com/marcopollivier/"
-[[params.social]]
-    name = "Gitlab"
-    icon = "fab fa-gitlab fa-2x"
-    weight = 2
-    url = "https://gitlab.com/marcopollivier/"
+    name = "Responsive - My Tech Blog"
+    icon = "fab fa-medium-m"
+    url  = "http://responsive.com.br"
 [[params.social]]
     name = "Twitter"
     icon = "fab fa-twitter fa-2x"
-    weight = 3
     url = "https://twitter.com/marcopollivier/"
 [[params.social]]
     name = "Linkedin"
     icon = "fab fa-linkedin fa-2x"
-    weight = 4
     url = "https://www.linkedin.com/in/marcopollivier"
 [[params.social]]
-    name = "Responsive - My Tech Blog"
-    icon = "fab fa-medium"
-    weight = 5
-    url  = "http://responsive.com.br"
+    name = "Github"
+    icon = "fab fa-github fa-2x"
+    url = "https://github.com/marcopollivier/"
+[[params.social]]
+    name = "Gitlab"
+    icon = "fab fa-gitlab fa-2x"
+    url = "https://gitlab.com/marcopollivier/"
+[[params.social]]
+    name = "Bitbucket"
+    icon = "fab fa-bitbucket fa-2x"
+    url = "https://bitbucket.org/marcopollivier/"
+[[params.social]]
+    name = "Meetup"
+    icon = "fab fa-meetup"
+    url  = "https://www.meetup.com/members/233822612"
+[[params.social]]
+    name = "Pocket"
+    icon = "fab fa-get-pocket"
+    url  = "https://getpocket.com/@marcopollivier"
+[[params.social]]
+    name = "Stack Overflow"
+    icon = "fab fa-stack-overflow"
+    url  = "https://stackoverflow.com/users/1913089/marco-paulo-ollivier"
 
 # Menu links
-
 # [[menu.main]]
 #     name = "Blog"
-#     weight = 1
 #     url = "https://medium.com/@marcopollivier"
 [[menu.main]]
     name = "Presentation"
-    weight = 1
     url = "https://speakerdeck.com/marcopollivier"
 [[menu.main]]
     name = "Meetup (soon)"
-    weight = 2
     url = "#"
 [[menu.main]]
-    name = "Meetup"
-    weight = 3
-    url = "https://www.meetup.com/members/233822612"
-[[menu.main]]
-    name = "Stack Over Flow"
-    weight = 4
-    url = "https://stackoverflow.com/users/1913089/marco-paulo-ollivier"
-[[menu.main]]
     name = "My Science Blog"
-    weight = 5
     url = "https://relativity.com.br"
