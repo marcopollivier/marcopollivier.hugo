@@ -24,7 +24,7 @@ disqusShortname = "yourdiscussshortname"
     favicon_32 = "/img/favicon-32x32.png"
     favicon_16 = "/img/favicon-16x16.png"
 
-    footercontent = "--- xXx ---"
+    footercontent = "Descendente intelectual de Arquimedes."
 
     hidecredits = false
     hidecopyright = false
@@ -56,29 +56,34 @@ disqusShortname = "yourdiscussshortname"
     weight = 4
     url = "https://www.linkedin.com/in/marcopollivier"
 [[params.social]]
-    name = "Responsive BR"
+    name = "Responsive - My Tech Blog"
     icon = "fab fa-medium"
     weight = 5
-    url  = "https://medium.com/responsive-br"
+    url  = "http://responsive.com.br"
 
 # Menu links
-[[menu.main]]
-    name = "Blog"
-    weight = 1
-    url = "https://medium.com/@marcopollivier"
+
+# [[menu.main]]
+#     name = "Blog"
+#     weight = 1
+#     url = "https://medium.com/@marcopollivier"
 [[menu.main]]
     name = "Presentation"
-    weight = 2
+    weight = 1
     url = "https://speakerdeck.com/marcopollivier"
+[[menu.main]]
+    name = "Meetup (soon)"
+    weight = 2
+    url = "#"
 [[menu.main]]
     name = "Meetup"
     weight = 3
-    url = "#"
-[[menu.main]]
-    name = "My Meetup"
-    weight = 4
     url = "https://www.meetup.com/members/233822612"
 [[menu.main]]
     name = "Stack Over Flow"
-    weight = 5
+    weight = 4
     url = "https://stackoverflow.com/users/1913089/marco-paulo-ollivier"
+[[menu.main]]
+    name = "My Science Blog"
+    weight = 5
+    url = "https://relativity.com.br"
