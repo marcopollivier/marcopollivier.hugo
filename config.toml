@@ -50,14 +50,14 @@ disqusShortname = "yourdiscussshortname"
     name = "Github"
     icon = "fab fa-github fa-2x"
     url = "https://github.com/marcopollivier/"
-[[params.social]]
-    name = "Gitlab"
-    icon = "fab fa-gitlab fa-2x"
-    url = "https://gitlab.com/marcopollivier/"
-[[params.social]]
-    name = "Bitbucket"
-    icon = "fab fa-bitbucket fa-2x"
-    url = "https://bitbucket.org/marcopollivier/"
+#[[params.social]]
+#    name = "Gitlab"
+#    icon = "fab fa-gitlab fa-2x"
+#    url = "https://gitlab.com/marcopollivier/"
+#[[params.social]]
+#    name = "Bitbucket"
+#    icon = "fab fa-bitbucket fa-2x"
+#    url = "https://bitbucket.org/marcopollivier/"
 [[params.social]]
     name = "Meetup"
     icon = "fab fa-meetup"
