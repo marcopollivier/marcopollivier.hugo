@@ -35,9 +35,9 @@ disqusShortname = "yourdiscussshortname"
 
 # Social links
 [[params.social]]
-    name = "Responsive - My Tech Blog"
+    name = "Medium"
     icon = "fab fa-medium-m"
-    url  = "http://responsive.com.br"
+    url  = "https://medium.com/@marcopollivier"
 [[params.social]]
     name = "Twitter"
     icon = "fab fa-twitter fa-2x"
@@ -50,14 +50,6 @@ disqusShortname = "yourdiscussshortname"
     name = "Github"
     icon = "fab fa-github fa-2x"
     url = "https://github.com/marcopollivier/"
-#[[params.social]]
-#    name = "Gitlab"
-#    icon = "fab fa-gitlab fa-2x"
-#    url = "https://gitlab.com/marcopollivier/"
-#[[params.social]]
-#    name = "Bitbucket"
-#    icon = "fab fa-bitbucket fa-2x"
-#    url = "https://bitbucket.org/marcopollivier/"
 [[params.social]]
     name = "Meetup"
     icon = "fab fa-meetup"
@@ -72,15 +64,15 @@ disqusShortname = "yourdiscussshortname"
     url  = "https://stackoverflow.com/users/1913089/marco-paulo-ollivier"
 
 # Menu links
-# [[menu.main]]
-#     name = "Blog"
-#     url = "https://medium.com/@marcopollivier"
 [[menu.main]]
-    name = "Presentation"
+    name = "Palestras"
     url = "https://speakerdeck.com/marcopollivier"
 [[menu.main]]
-    name = "Meetup (soon)"
-    url = "#"
+    name = "Blog de Soft. Eng."
+    url = "http://responsive.com.br"
 [[menu.main]]
-    name = "My Science Blog"
+    name = "GopheRio Meetup"
+    url = "https://gopher.rio.br"
+[[menu.main]]
+    name = "Blog de Ciência"
     url = "https://relativity.com.br"
