@@ -15,16 +15,16 @@ disqusShortname = "yourdiscussshortname"
 
 [params]
     author = "Marco Paulo Ollivier"
-    info = "Software Engineer @ OLX"
+    info = "Software Engineer @ Nubank"
     description = "Marco Paulo Ollivier's personal website"
     keywords = "blog,developer,personal"
     footercontent = "Descendente intelectual de Arquimedes"
 
     avatarurl = "https://avatars1.githubusercontent.com/u/697445?s=460&v=4"
-    
+
     favicon_32 = "/img/favicon-32x32.png"
     favicon_16 = "/img/favicon-16x16.png"
-   
+
     hidecredits = false
     hidecopyright = true
 
