@@ -62,6 +62,10 @@ disqusShortname = "yourdiscussshortname"
     name = "Stack Overflow"
     icon = "fab fa-stack-overflow"
     url  = "https://stackoverflow.com/users/1913089/marco-paulo-ollivier"
+[[params.social]]
+    name = "E-mail"
+    icon = "fab fa-stack-mail"
+    url  = "mollivier.dev@gmail.com"
 
 # Menu links
 [[menu.main]]
