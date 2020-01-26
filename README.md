@@ -2,7 +2,7 @@
 
 This is the Marco Paulo Ollivier's website
 
-### Contributing
+## Run locally
 
 To view the site locally, install [Hugo](http://gohugo.io/) and run a local server with the following command:
 ```
@@ -11,18 +11,8 @@ hugo server -v -w -t=hugo-coder --config=config_en.toml
 
 ```
 
-<!-- 
-### Running with Docker
+## Current theme
 
-```
-$ cd docker
-$ docker build -t gopherconbr:latest .
-$ docker run -d -p 80:80 -p 443:443 gopherconbr:latest
-```
+[Hugo Theme Coder](https://themes.gohugo.io/hugo-coder/)
 
-### Editions
 
-[2016](https://github.com/gopherconbr/gopherconbr.org/tree/2016)
-[2017](https://github.com/gopherconbr/gopherconbr.org/tree/2017)
-[2018](https://github.com/gopherconbr/gopherconbr.org) 
--->
