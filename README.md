@@ -15,4 +15,7 @@ hugo server -v -w -t=hugo-coder --config=config_en.toml
 
 [Hugo Theme Coder](https://themes.gohugo.io/hugo-coder/)
 
+## Download project
 
+To download correctely this project it's necessary clone with recursive flag
+`git@github.com:marcopollivier/marcopollivier.hugo.git --recurse-submodules`
