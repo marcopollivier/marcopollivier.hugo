@@ -1,8 +1,8 @@
 # Marco Paulo Ollivier - Personal website
 
-This is the Marco's personal page repo. 
+This is Marco's personal page repo. 
 
-This repository is only the Hugo's structure project. 
+This repository is only Hugo's structure project. 
 The static files can be found [here](https://github.com/marcopollivier/marcopollivier.github.io)
 
 ## Run locally
@@ -18,5 +18,5 @@ hugo server -v -w -t=hugo-coder --config=config_en.toml
 
 ## Download project
 
-To download correctely this project it's necessary clone with recursive flag
+To download correctly this project it's a necessary clone with recursive flag
 `git@github.com:marcopollivier/marcopollivier.hugo.git --recurse-submodules`
