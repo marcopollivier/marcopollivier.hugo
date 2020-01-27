@@ -11,21 +11,21 @@ pygmentsstyle = "bw"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
 
-disqusShortname = "yourdiscussshortname"
+disqusShortname = "marcopollivier"
 
 [params]
     author = "Marco Paulo Ollivier"
     info = "Software Engineer @ Nubank"
     description = "Marco Paulo Ollivier's personal website"
     keywords = "blog,developer,personal"
-    footercontent = "Descendente intelectual de Arquimedes"
+    footercontent = "Fale comigo pelo e-mail <a href='mailto://mollivier.dev@gmail.com'>mollivier.dev@gmail.com</a>"
 
     avatarurl = "https://avatars1.githubusercontent.com/u/697445?s=460&v=4"
 
     favicon_32 = "/img/favicon-32x32.png"
     favicon_16 = "/img/favicon-16x16.png"
 
-    hidecredits = false
+    hidecredits = true
     hidecopyright = true
 
     rtl = false
@@ -35,44 +35,57 @@ disqusShortname = "yourdiscussshortname"
 
 # Social links
 [[params.social]]
-    name = "Medium"
-    icon = "fab fa-medium-m"
-    url  = "https://medium.com/@marcopollivier"
+    name = "Linkedin"
+    icon = "fab fa-linkedin fa-2x"
+    url = "https://www.linkedin.com/in/marcopollivier"
 [[params.social]]
     name = "Twitter"
     icon = "fab fa-twitter fa-2x"
     url = "https://twitter.com/marcopollivier/"
 [[params.social]]
-    name = "Linkedin"
-    icon = "fab fa-linkedin fa-2x"
-    url = "https://www.linkedin.com/in/marcopollivier"
+    name = "Instagram"
+    icon = "fab fa-instagram"
+    url  = "https://instagram.com/marcopollivier"
+[[params.social]]
+    name = "Telegram"
+    icon = "fab fa-telegram-plane"
+    url  = "https://t.me/marcopollivier"
+[[params.social]]
+    name = "Medium"
+    icon = "fab fa-medium-m"
+    url  = "https://medium.com/@marcopollivier"
 [[params.social]]
     name = "Github"
     icon = "fab fa-github fa-2x"
-    url = "https://github.com/marcopollivier/"
+    url = "https://github.com/marcopollivier"
+[[params.social]]
+    name = "npm"
+    icon = "fab fa"
+    url = "https://www.npmjs.com/~marcopollivier"
+[[params.social]]
+    name = "Speaker Deck"
+    icon = "fab fa-speaker-deck"
+    url = "https://speakerdeck.com/marcopollivier"
+[[params.social]]
+    name = "Dev.to"
+    icon = "fab fa-dev"
+    url = "https://dev.to/marcopollivier"
 [[params.social]]
     name = "Meetup"
     icon = "fab fa-meetup"
     url  = "https://www.meetup.com/members/233822612"
 [[params.social]]
-    name = "Pocket"
-    icon = "fab fa-get-pocket"
-    url  = "https://getpocket.com/@marcopollivier"
-[[params.social]]
     name = "Stack Overflow"
     icon = "fab fa-stack-overflow"
     url  = "https://stackoverflow.com/users/1913089/marco-paulo-ollivier"
 [[params.social]]
-    name = "E-mail"
-    icon = "fab fa-stack-mail"
-    url  = "mollivier.dev@gmail.com"
+    name = "Pocket"
+    icon = "fab fa-get-pocket"
+    url  = "https://getpocket.com/@marcopollivier"
 
 # Menu links
 [[menu.main]]
-    name = "Palestras"
-    url = "https://speakerdeck.com/marcopollivier"
-[[menu.main]]
-    name = "Blog de Soft. Eng."
+    name = "Blog Tech"
     url = "http://responsive.com.br"
 [[menu.main]]
     name = "GopheRio Meetup"
