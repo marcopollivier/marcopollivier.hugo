@@ -3,7 +3,7 @@
 This is Marco's personal page repo. 
 
 This repository is only Hugo's structure project. 
-The static files can be found [here](https://github.com/marcopollivier/marcopollivier.github.io)
+The static files can be find [here](https://github.com/marcopollivier/marcopollivier.github.io)
 
 ## Run locally
 To view the site locally, install [Hugo](http://gohugo.io/) and run a local server with the following command:
@@ -17,6 +17,5 @@ hugo server -v -w -t=hugo-coder --config=config_en.toml
 [Hugo Theme Coder](https://themes.gohugo.io/hugo-coder/)
 
 ## Download project
-
-To download correctly this project it's a necessary clone with recursive flag
-`git@github.com:marcopollivier/marcopollivier.hugo.git --recurse-submodules`
+To download correctly this project it's necessary clone with recursive flag
+    `$ git clone git@github.com:marcopollivier/marcopollivier.hugo.git --recurse-submodules`
