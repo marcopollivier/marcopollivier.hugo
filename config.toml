@@ -60,7 +60,7 @@ disqusShortname = "marcopollivier"
     url = "https://github.com/marcopollivier"
 [[params.social]]
     name = "npm"
-    icon = "fab fa"
+    icon = "fab fa-npm"
     url = "https://www.npmjs.com/~marcopollivier"
 [[params.social]]
     name = "Speaker Deck"
