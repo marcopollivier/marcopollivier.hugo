@@ -20,3 +20,6 @@ hugo server -v -w -t=hugo-coder --config=config_en.toml
 
 To download correctly this project it's a necessary clone with recursive flag
 `git@github.com:marcopollivier/marcopollivier.hugo.git --recurse-submodules`
+
+## Other informations 
+About icons see this page https://fontawesome.com/icons?d=gallery&m=free
