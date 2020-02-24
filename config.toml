@@ -34,6 +34,7 @@ disqusShortname = "marcopollivier"
     custom_css = ["css/custom.css"]
 
 # Social links
+# Social Media
 [[params.social]]
     name = "Linkedin"
     icon = "fab fa-linkedin fa-2x"
@@ -50,10 +51,26 @@ disqusShortname = "marcopollivier"
     name = "Telegram"
     icon = "fab fa-telegram-plane"
     url  = "https://t.me/marcopollivier"
+
+# Content
 [[params.social]]
     name = "Medium"
     icon = "fab fa-medium-m"
     url  = "https://medium.com/@marcopollivier"
+[[params.social]]
+    name = "Dev.to"
+    icon = "fab fa-dev"
+    url = "https://dev.to/marcopollivier"
+[[params.social]]
+    name = "Speaker Deck"
+    icon = "fab fa-speaker-deck"
+    url = "https://speakerdeck.com/marcopollivier"
+[[params.social]]
+    name = "YouTube"
+    icon = "fab fa-youtube"
+    url  = "https://youtube.com/user/marcopollivier"
+
+# Repos
 [[params.social]]
     name = "Github"
     icon = "fab fa-github fa-2x"
@@ -62,30 +79,20 @@ disqusShortname = "marcopollivier"
     name = "npm"
     icon = "fab fa-npm"
     url = "https://www.npmjs.com/~marcopollivier"
-[[params.social]]
-    name = "Speaker Deck"
-    icon = "fab fa-speaker-deck"
-    url = "https://speakerdeck.com/marcopollivier"
-[[params.social]]
-    name = "Dev.to"
-    icon = "fab fa-dev"
-    url = "https://dev.to/marcopollivier"
-[[params.social]]
-    name = "Meetup"
-    icon = "fab fa-meetup"
-    url  = "https://www.meetup.com/members/233822612"
+
+# Others
 [[params.social]]
     name = "Stack Overflow"
     icon = "fab fa-stack-overflow"
     url  = "https://stackoverflow.com/users/1913089/marco-paulo-ollivier"
 [[params.social]]
+    name = "Meetup"
+    icon = "fab fa-meetup"
+    url  = "https://www.meetup.com/members/233822612"
+[[params.social]]
     name = "Pocket"
     icon = "fab fa-get-pocket"
     url  = "https://getpocket.com/@marcopollivier"
-[[params.social]]
-    name = "YouTube"
-    icon = "fab fa-youtube"
-    url  = "https://youtube.com/user/marcopollivier"
 
 # Menu links
 [[menu.main]]
