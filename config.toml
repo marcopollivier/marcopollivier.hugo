@@ -82,6 +82,10 @@ disqusShortname = "marcopollivier"
     name = "Pocket"
     icon = "fab fa-get-pocket"
     url  = "https://getpocket.com/@marcopollivier"
+[[params.social]]
+    name = "YouTube"
+    icon = "fab fa-youtube"
+    url  = "https://youtube.com/user/marcopollivier"
 
 # Menu links
 [[menu.main]]
