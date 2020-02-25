@@ -81,18 +81,18 @@ disqusShortname = "marcopollivier"
     url = "https://www.npmjs.com/~marcopollivier"
 
 # Others
-[[params.social]]
-    name = "Stack Overflow"
-    icon = "fab fa-stack-overflow"
-    url  = "https://stackoverflow.com/users/1913089/marco-paulo-ollivier"
-[[params.social]]
-    name = "Meetup"
-    icon = "fab fa-meetup"
-    url  = "https://www.meetup.com/members/233822612"
-[[params.social]]
-    name = "Pocket"
-    icon = "fab fa-get-pocket"
-    url  = "https://getpocket.com/@marcopollivier"
+# [[params.social]]
+#     name = "Stack Overflow"
+#     icon = "fab fa-stack-overflow"
+#     url  = "https://stackoverflow.com/users/1913089/marco-paulo-ollivier"
+# [[params.social]]
+#     name = "Meetup"
+#     icon = "fab fa-meetup"
+#     url  = "https://www.meetup.com/members/233822612"
+# [[params.social]]
+#     name = "Pocket"
+#     icon = "fab fa-get-pocket"
+#     url  = "https://getpocket.com/@marcopollivier"
 
 # Menu links
 [[menu.main]]
