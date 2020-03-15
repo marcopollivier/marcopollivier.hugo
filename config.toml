@@ -55,7 +55,7 @@ disqusShortname = "marcopollivier"
 # Content
 [[params.social]]
     name = "Medium"
-    icon = "fab fa-medium-m"
+    icon = "fab fa-medium"
     url  = "https://medium.com/@marcopollivier"
 [[params.social]]
     name = "Dev.to"
@@ -75,6 +75,10 @@ disqusShortname = "marcopollivier"
     name = "Github"
     icon = "fab fa-github fa-2x"
     url = "https://github.com/marcopollivier"
+[[params.social]]
+    name = "Gitlab"
+    icon = "fab fa-gitlab"
+    url = "https://gitlab.com/marcopollivier"
 [[params.social]]
     name = "npm"
     icon = "fab fa-npm"
