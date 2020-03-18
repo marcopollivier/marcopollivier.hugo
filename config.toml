@@ -100,11 +100,18 @@ disqusShortname = "marcopollivier"
 
 # Menu links
 [[menu.main]]
-    name = "Blog Tech"
-    url = "http://responsive.com.br"
-[[menu.main]]
     name = "GopheRio Meetup"
     url = "https://gopher.rio.br"
 [[menu.main]]
-    name = "Blog de Ciência"
-    url = "https://relativity.com.br"
+    name = "Tech"
+    url = "http://responsive.com.br"
+[[menu.main]]
+    name = "Ciências"
+    # url = "https://relativity.com.br"
+    url = "https://medium.com/relatividade-cotidiana"
+[[menu.main]]
+    name = "Filosofia"
+    url = "https://medium.com/philossophiapura"    
+[[menu.main]]
+    name = "Foodie"
+    url = "https://medium.com/bacalhaufoodie"    
