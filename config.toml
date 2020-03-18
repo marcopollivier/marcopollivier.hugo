@@ -103,6 +103,9 @@ disqusShortname = "marcopollivier"
     name = "GopheRio Meetup"
     url = "https://gopher.rio.br"
 [[menu.main]]
+    name = "Cursos"
+    url = "#"
+[[menu.main]]
     name = "Tech"
     url = "http://responsive.com.br"
 [[menu.main]]
@@ -115,3 +118,6 @@ disqusShortname = "marcopollivier"
 [[menu.main]]
     name = "Foodie"
     url = "https://medium.com/bacalhaufoodie"    
+[[menu.main]]
+    name = "Fotografia"
+    url = "#"
