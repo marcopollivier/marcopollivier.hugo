@@ -102,9 +102,9 @@ disqusShortname = "marcopollivier"
 [[menu.main]]
     name = "GopheRio Meetup"
     url = "https://gopher.rio.br"
-[[menu.main]]
-    name = "Cursos"
-    url = "#"
+#[[menu.main]]
+#    name = "Cursos"
+#    url = "#"
 [[menu.main]]
     name = "Tech"
     url = "http://responsive.com.br"
@@ -114,10 +114,10 @@ disqusShortname = "marcopollivier"
     url = "https://medium.com/relatividade-cotidiana"
 [[menu.main]]
     name = "Filosofia"
-    url = "https://medium.com/philossophiapura"    
+    url = "https://medium.com/philossophiapura"
 [[menu.main]]
     name = "Foodie"
-    url = "https://medium.com/bacalhaufoodie"    
-[[menu.main]]
-    name = "Fotografia"
-    url = "#"
+    url = "https://medium.com/bacalhaufoodie"
+#[[menu.main]]
+#    name = "Fotografia"
+#    url = "#"
