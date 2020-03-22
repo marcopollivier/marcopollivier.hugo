@@ -91,15 +91,20 @@ h6 {
 b, strong {
   font-weight: 700; }
 
+.highlight > div,
+.highlight > pre {
+  margin: 0 0 2rem;
+  padding: 1rem;
+  border-radius: 1rem; }
+
 pre {
   display: block;
   font-family: "Source Code Pro", "Lucida Console", monospace;
   font-size: 1.6rem;
   font-weight: 400;
   line-height: 2.6rem;
-  margin: 2.0rem 0 2.0rem 0;
-  padding: 2.0rem;
-  overflow-x: auto; }
+  overflow-x: auto;
+  margin: 0; }
   pre code {
     display: inline-block;
     background-color: inherit;
@@ -110,8 +115,7 @@ code {
   font-size: 1.6rem;
   font-weight: 400;
   background-color: #E0E0E0;
-  color: #212121;
-  padding: 0.2rem 0.4rem 0.2rem 0.4rem; }
+  color: #212121; }
 
 blockquote {
   border-left: 2px solid #E0E0E0;
@@ -145,6 +149,9 @@ table tr th:last-child {
 
 img {
   max-width: 100%; }
+
+figure {
+  text-align: center; }
 
 .wrapper {
   display: flex;
@@ -199,6 +206,10 @@ img {
       margin: 3.2rem 0; }
       .content article footer .see-also h3 {
         margin: 3.2rem 0; }
+  .content article p {
+    text-align: justify;
+    text-justify: auto;
+    hyphens: auto; }
   .content .post .post-title {
     margin-bottom: .75em; }
   .content .post .post-meta i {
