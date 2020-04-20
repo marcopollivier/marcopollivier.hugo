@@ -99,9 +99,9 @@ disqusShortname = "marcopollivier"
 #     url  = "https://getpocket.com/@marcopollivier"
 
 # Menu links
-[[menu.main]]
-    name = "GopheRio Meetup"
-    url = "https://gopher.rio.br"
+#[[menu.main]]
+#    name = "GopheRio Meetup"
+#    url = "https://gopher.rio.br"
 #[[menu.main]]
 #    name = "Cursos"
 #    url = "#"
