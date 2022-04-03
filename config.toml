@@ -1,4 +1,4 @@
-baseurl = "https://marcopollivier.dev"
+baseurl = "http://marcopollivier.dev"
 title = "Marco Paulo Ollivier"
 theme = "hugo-coder"
 languagecode = "pt-br"
