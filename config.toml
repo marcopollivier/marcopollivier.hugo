@@ -23,8 +23,8 @@ disqusShortname = "marcopollivier"
     avatarurl = "https://avatars1.githubusercontent.com/u/697445?s=460&v=4"
     #gravatar = "john.doe@example.com"
 
-    favicon_32 = "/img/favicon-32x32.png"
-    favicon_16 = "/img/favicon-16x16.png"
+    favicon_32 = "img/favicon-32x32.png"
+    favicon_16 = "img/favicon-16x16.png"
 
     since = 2012
 
@@ -36,9 +36,9 @@ disqusShortname = "marcopollivier"
     # hidecredits = true
     # hidecopyright = true
 
-    # custom_css = ["//css/custom.css"]
-    # custom_scss = ["//scss/custom.scss"]
-    # custom_js = ["//js/custom.js"]
+    custom_css = ["css/custom.css"]
+    custom_scss = ["scss/custom.scss"]
+    custom_js = ["js/custom.js"]
 
 [permalinks]
   posts = '/:year/:month/:title/'
