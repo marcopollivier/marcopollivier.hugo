@@ -36,9 +36,9 @@ disqusShortname = "marcopollivier"
     # hidecredits = true
     # hidecopyright = true
 
-    custom_css = ["css/custom.css"]
-    custom_scss = ["scss/custom.scss"]
-    custom_js = ["js/custom.js"]
+    # custom_css = ["//css/custom.css"]
+    # custom_scss = ["//scss/custom.scss"]
+    # custom_js = ["//js/custom.js"]
 
 [permalinks]
   posts = '/:year/:month/:title/'
