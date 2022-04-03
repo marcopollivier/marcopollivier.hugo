@@ -5,6 +5,7 @@ languagecode = "pt-br"
 defaultcontentlanguage = "pt-br"
 
 paginate = 20
+canonifyurls = true
 
 pygmentsstyle = "bw"
 pygmentscodefences = true
@@ -28,84 +29,87 @@ disqusShortname = "marcopollivier"
     since = 2012
 
     enableTwemoji = true
-
-    colorScheme = "auto"
+    
+    colorScheme = "dark"
     hidecolorschemetoggle = false
 
-    customCSS = ["css/custom.css"]
-    customSCSS = ["scss/custom.scss"]
-    customJS = ["js/custom.js"]
+    # hidecredits = true
+    # hidecopyright = true
 
-    [taxonomies]
-    category = "categories"
-    series = "series"
-    tag = "tags"
-    author = "authors"
+    custom_css = ["css/custom.css"]
+    custom_scss = ["scss/custom.scss"]
+    custom_js = ["js/custom.js"]
+
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
+  author = "authors"
 
 # Social links
 # Social Media
 [[params.social]]
     name = "Linkedin"
-    icon = "fab fa-linkedin fa-2x"
+    icon = "fa fa-linkedin fa-2x"
     url = "https://www.linkedin.com/in/marcopollivier"
 [[params.social]]
     name = "Twitter"
-    icon = "fab fa-twitter fa-2x"
+    icon = "fa fa-twitter fa-2x"
     url = "https://twitter.com/marcopollivier/"
 [[params.social]]
     name = "Instagram"
-    icon = "fab fa-instagram"
+    icon = "fa fa-instagram fa-2x"
     url  = "https://instagram.com/marcopollivier"
-[[params.social]]
-    name = "Telegram"
-    icon = "fab fa-telegram-plane"
-    url  = "https://t.me/marcopollivier"
+# [[params.social]]
+#     name = "Telegram"
+#     icon = "fa fa-telegram-plane "
+#     url  = "https://t.me/marcopollivier"
 
 # Content
 [[params.social]]
     name = "Medium"
-    icon = "fab fa-medium"
+    icon = "fa fa-medium fa-2x"
     url  = "https://medium.com/@marcopollivier"
-[[params.social]]
-    name = "Dev.to"
-    icon = "fab fa-dev"
-    url = "https://dev.to/marcopollivier"
-[[params.social]]
-    name = "Speaker Deck"
-    icon = "fab fa-speaker-deck"
-    url = "https://speakerdeck.com/marcopollivier"
+# [[params.social]]
+#     name = "Dev.to"
+#     icon = "fa fa-dev "
+#     url = "https://dev.to/marcopollivier"
+# [[params.social]]
+#     name = "Speaker Deck"
+#     icon = "fa fa-speaker-deck"
+#     url = "https://speakerdeck.com/marcopollivier"
 [[params.social]]
     name = "YouTube"
-    icon = "fab fa-youtube"
+    icon = "fa fa-youtube fa-2x"
     url  = "https://youtube.com/user/marcopollivier"
 
 # Repos
 [[params.social]]
     name = "Github"
-    icon = "fab fa-github fa-2x"
+    icon = "fa fa-github fa-2x"
     url = "https://github.com/marcopollivier"
 [[params.social]]
     name = "Gitlab"
-    icon = "fab fa-gitlab"
+    icon = "fa fa-gitlab fa-2x"
     url = "https://gitlab.com/marcopollivier"
-[[params.social]]
-    name = "npm"
-    icon = "fab fa-npm"
-    url = "https://www.npmjs.com/~marcopollivier"
+# [[params.social]]
+#     name = "npm"
+#     icon = "fa fa-npm"
+#     url = "https://www.npmjs.com/~marcopollivier"
 
 # Others
-# [[params.social]]
-#     name = "Stack Overflow"
-#     icon = "fab fa-stack-overflow"
-#     url  = "https://stackoverflow.com/users/1913089/marco-paulo-ollivier"
-# [[params.social]]
-#     name = "Meetup"
-#     icon = "fab fa-meetup"
-#     url  = "https://www.meetup.com/members/233822612"
-# [[params.social]]
-#     name = "Pocket"
-#     icon = "fab fa-get-pocket"
-#     url  = "https://getpocket.com/@marcopollivier"
+[[params.social]]
+    name = "Stack Overflow"
+    icon = "fa fa-stack-overflow fa-2x"
+    url  = "https://stackoverflow.com/users/1913089/marco-paulo-ollivier"
+[[params.social]]
+    name = "Meetup"
+    icon = "fa fa-meetup fa-2x"
+    url  = "https://www.meetup.com/members/233822612"
+[[params.social]]
+    name = "Pocket"
+    icon = "fa fa-get-pocket fa-2x"
+    url  = "https://getpocket.com/@marcopollivier"
 
 # Menu links
 #[[menu.main]]
@@ -117,16 +121,16 @@ disqusShortname = "marcopollivier"
 # [[menu.main]]
 #     name = "Tech"
 #     url = "http://responsive.com.br"
-[[menu.main]]
-    name = "Ciências"
-    # url = "https://relativity.com.br"
-    url = "https://medium.com/relatividade-cotidiana"
-[[menu.main]]
-    name = "Filosofia"
-    url = "https://medium.com/philossophiapura"
-[[menu.main]]
-    name = "Foodie"
-    url = "https://medium.com/bacalhaufoodie"
+# [[menu.main]]
+#     name = "Ciências"
+#     # url = "https://relativity.com.br"
+#     url = "https://medium.com/relatividade-cotidiana"
+# [[menu.main]]
+#     name = "Filosofia"
+#     url = "https://medium.com/philossophiapura"
+# [[menu.main]]
+#     name = "Foodie"
+#     url = "https://medium.com/bacalhaufoodie"
 #[[menu.main]]
 #    name = "Fotografia"
 #    url = "#"
