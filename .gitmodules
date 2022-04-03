@@ -1,7 +1,0 @@
-[submodule "public"]
-	path = public
-	url = git@github.com:marcopollivier/marcopollivier.github.io.git
-	branch = prebuild
-[submodule "themes/hugo-coder"]
-	path = themes/hugo-coder
-	url = git@github.com:luizdepra/hugo-coder.git
