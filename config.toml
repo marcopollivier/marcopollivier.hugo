@@ -1,11 +1,10 @@
-baseurl = "https://ollivier.com.br"
+baseurl = "https://marcopollivier.dev"
 title = "Marco Paulo Ollivier"
 theme = "hugo-coder"
 languagecode = "pt-br"
 defaultcontentlanguage = "pt-br"
 
 paginate = 20
-canonifyurls = true
 
 pygmentsstyle = "bw"
 pygmentscodefences = true
@@ -21,17 +20,27 @@ disqusShortname = "marcopollivier"
     footercontent = "Fale comigo pelo e-mail <a href='mailto://mollivier.dev@gmail.com'>mollivier.dev@gmail.com</a>"
 
     avatarurl = "https://avatars1.githubusercontent.com/u/697445?s=460&v=4"
+    #gravatar = "john.doe@example.com"
 
     favicon_32 = "/img/favicon-32x32.png"
     favicon_16 = "/img/favicon-16x16.png"
 
-    hidecredits = true
-    hidecopyright = true
+    since = 2012
 
-    rtl = false
+    enableTwemoji = true
 
-    math = true
-    custom_css = ["css/custom.css"]
+    colorScheme = "auto"
+    hidecolorschemetoggle = false
+
+    customCSS = ["css/custom.css"]
+    customSCSS = ["scss/custom.scss"]
+    customJS = ["js/custom.js"]
+
+    [taxonomies]
+    category = "categories"
+    series = "series"
+    tag = "tags"
+    author = "authors"
 
 # Social links
 # Social Media
@@ -105,9 +114,9 @@ disqusShortname = "marcopollivier"
 #[[menu.main]]
 #    name = "Cursos"
 #    url = "#"
-[[menu.main]]
-    name = "Tech"
-    url = "http://responsive.com.br"
+# [[menu.main]]
+#     name = "Tech"
+#     url = "http://responsive.com.br"
 [[menu.main]]
     name = "Ciências"
     # url = "https://relativity.com.br"
