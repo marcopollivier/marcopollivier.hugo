@@ -1,4 +1,4 @@
-baseurl = "http://marcopollivier.dev"
+baseurl = "https://marcopollivier.github.io/"
 title = "Marco Paulo Ollivier"
 theme = "hugo-coder"
 languagecode = "pt-br"
