@@ -7,6 +7,8 @@ hugo -t hugo-coder
 
 # Go To Public folder
 cd public
+cp docs/README.md .
+
 # Add changes to git.
 git add .
 
@@ -22,8 +24,6 @@ git push origin master
 
 # Come Back up to the Project Root
 cd ..
-
-cp docs/README.md public 
 
 git add .
 git commit -m "$msg"
