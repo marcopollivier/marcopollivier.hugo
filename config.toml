@@ -40,6 +40,9 @@ disqusShortname = "marcopollivier"
     custom_scss = ["scss/custom.scss"]
     custom_js = ["js/custom.js"]
 
+[permalinks]
+  posts = '/:year/:month/:title/'
+
 [taxonomies]
   category = "categories"
   series = "series"
