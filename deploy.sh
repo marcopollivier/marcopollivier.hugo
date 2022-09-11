@@ -7,7 +7,7 @@ hugo -t hugo-coder
 
 # Go To Public folder
 cd public
-cp docs/README.md .
+cp ../docs/README.md .
 
 # Add changes to git.
 git add .

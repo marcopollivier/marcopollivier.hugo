@@ -86,18 +86,18 @@ id = "GTM-WKCPJV9"
 #     url = "https://www.npmjs.com/~marcopollivier"
 
 # Others
-[[params.social]]
-    name = "Stack Overflow"
-    icon = "fa fa-stack-overflow fa-2x"
-    url  = "https://stackoverflow.com/users/1913089/marco-paulo-ollivier"
-[[params.social]]
-    name = "Meetup"
-    icon = "fa fa-meetup fa-2x"
-    url  = "https://www.meetup.com/members/233822612"
-[[params.social]]
-    name = "Pocket"
-    icon = "fa fa-get-pocket fa-2x"
-    url  = "https://getpocket.com/@marcopollivier"
+#[[params.social]]
+#    name = "Stack Overflow"
+#    icon = "fa fa-stack-overflow fa-2x"
+#    url  = "https://stackoverflow.com/users/1913089/marco-paulo-ollivier"
+#[[params.social]]
+#    name = "Meetup"
+#    icon = "fa fa-meetup fa-2x"
+#    url  = "https://www.meetup.com/members/233822612"
+#[[params.social]]
+#    name = "Pocket"
+#    icon = "fa fa-get-pocket fa-2x"
+#    url  = "https://getpocket.com/@marcopollivier"
 
 [languages.pt-br]
 languageName = ":brazil:"
