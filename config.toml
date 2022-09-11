@@ -1,53 +1,38 @@
 baseurl = "https://marcopollivier.dev/"
-title = "Marco Paulo Ollivier"
+title = "Marco Ollivier"
 theme = "hugo-coder"
 languagecode = "pt-br"
 defaultcontentlanguage = "pt-br"
-
 paginate = 20
-canonifyurls = true
-
 pygmentsstyle = "bw"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
-
+enableEmoji = true
 disqusShortname = "marcopollivier"
 
 [params]
-    author = "Marco Paulo Ollivier"
-    info = "Software Engineer @ Nubank"
-    description = "Página pessoal de Marco Paulo Ollivier"
-    keywords = "blog,developer,personal,software engineer "
-    footercontent = "Fale comigo pelo e-mail <a href='mailto://mollivier.dev@gmail.com'>mollivier.dev@gmail.com</a>"
+author = "Marco Ollivier"
+description = "Página pessoal de Marco Ollivier"
+keywords = "blog,developer,personal,software engineer "
+info = "Software Engineer @ Flash"
+gravatar = "marcopollivier@gmail.com"
+dateFormat = "January 2, 2006"
+since = 2012
+colorScheme = "auto"
+hidecolorschemetoggle = false
+maxSeeAlsoItems = 5
+custom_css = ["css/custom.css"]
+custom_scss = ["scss/custom.scss"]
+custom_js = ["js/custom.js"]
 
-    avatarurl = "https://avatars1.githubusercontent.com/u/697445?s=460&v=4"
-    #gravatar = "john.doe@example.com"
-
-    favicon_32 = "img/favicon-32x32.png"
-    favicon_16 = "img/favicon-16x16.png"
-
-    since = 2012
-
-    enableTwemoji = true
-    
-    colorScheme = "dark"
-    hidecolorschemetoggle = false
-
-    # hidecredits = true
-    # hidecopyright = true
-
-    custom_css = ["css/custom.css"]
-    custom_scss = ["scss/custom.scss"]
-    custom_js = ["js/custom.js"]
-
-[permalinks]
-  posts = '/:year/:month/:title/'
+[params.googleTagManager]
+id = "GTM-WKCPJV9"
 
 [taxonomies]
-  category = "categories"
+  category = "categorias"
   series = "series"
   tag = "tags"
-  author = "authors"
+  author = "autores"
 
 # Social links
 # Social Media
@@ -72,7 +57,7 @@ disqusShortname = "marcopollivier"
 [[params.social]]
     name = "Medium"
     icon = "fa fa-medium fa-2x"
-    url  = "https://medium.com/@marcopollivier"
+    url  = "http://responsive.com.br"
 # [[params.social]]
 #     name = "Dev.to"
 #     icon = "fa fa-dev "
@@ -114,26 +99,48 @@ disqusShortname = "marcopollivier"
     icon = "fa fa-get-pocket fa-2x"
     url  = "https://getpocket.com/@marcopollivier"
 
-# Menu links
-#[[menu.main]]
-#    name = "GopheRio Meetup"
-#    url = "https://gopher.rio.br"
-#[[menu.main]]
-#    name = "Cursos"
-#    url = "#"
-# [[menu.main]]
-#     name = "Tech"
-#     url = "http://responsive.com.br"
-# [[menu.main]]
-#     name = "Ciências"
-#     # url = "https://relativity.com.br"
-#     url = "https://medium.com/relatividade-cotidiana"
-# [[menu.main]]
-#     name = "Filosofia"
-#     url = "https://medium.com/philossophiapura"
-# [[menu.main]]
-#     name = "Foodie"
-#     url = "https://medium.com/bacalhaufoodie"
-#[[menu.main]]
-#    name = "Fotografia"
-#    url = "#"
+[languages.pt-br]
+languageName = ":brazil:"
+
+[[languages.pt-br.menu.main]]
+name = "Sobre"
+weight = 1
+url = "about/"
+
+#[[languages.pt-br.menu.main]]
+#name = "Blog"
+#weight = 2
+#url = "posts/"
+#
+#[[languages.pt-br.menu.main]]
+#name = "Cursos"
+#weight = 3
+#url = "classes/"
+#
+#[[languages.pt-br.menu.main]]
+#name = "Projetos"
+#weight = 4
+#url = "projects/"
+
+[languages.en]
+languageName = ":uk:"
+
+[[languages.en.menu.main]]
+name = "About"
+weight = 1
+url = "about/"
+
+#[[languages.en.menu.main]]
+#name = "Blog"
+#weight = 2
+#url = "posts/"
+#
+#[[languages.en.menu.main]]
+#name = "Classes"
+#weight = 3
+#url = "classes/"
+#
+#[[languages.en.menu.main]]
+#name = "Projects"
+#weight = 4
+#url = "projects/"
