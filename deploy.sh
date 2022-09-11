@@ -2,29 +2,37 @@
 
 echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
 
-# Build the project.
+# Config Hugo
+
+## Build the project.
 hugo -t hugo-coder
 
-# Go To Public folder
+##  Go To Public folder
 cd public
 cp ../docs/README.md .
 
-# Add changes to git.
+# Config Git
+
+## Checkout master on submodules
+git checkout master
+
+##  Add changes to git.
 git add .
 
-# Commit changes.
+## Commit changes.
 msg="Rebuilding site `date`"
 if [ $# -eq 1 ]
   then msg="$1"
 fi
 git commit -m "$msg"
 
-# Push source and build repos.
+## Push source and build repos.
 git push origin master
+
+## Config root Hugo project
 
 # Come Back up to the Project Root
 cd ..
-
 git add .
 git commit -m "$msg"
 git push origin master
