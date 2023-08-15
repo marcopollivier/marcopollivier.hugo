@@ -1,6 +1,6 @@
 +++
 authors = ["Marco Ollivier"]
-title = "Emoji Support"
+title = "Ask Kanban para sua daily não ser um status report"
 date = "2023-08-07"
 description = "Ask Kanban para sua daily não ser um status report"
 tags = [
