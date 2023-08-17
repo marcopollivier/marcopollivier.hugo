@@ -13,6 +13,7 @@ categories = [
     "processos",
     "topologia de times",
 ]
+
 series = ["Melhore os processos do seu time"]
 +++
 
