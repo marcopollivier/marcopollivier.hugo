@@ -1,8 +1,8 @@
 +++
-title = "Versionando seu Banco de Dados com Liquibase"
-description = "Versionando seu Banco de Dados com Liquibase"
 authors = ["Marco Ollivier"]
+title = "Versionando seu Banco de Dados com Liquibase"
 date = "2018-01-27"
+description = "Versionando seu Banco de Dados com Liquibase"
 tags = [
     "liquibase",
     "databse",
