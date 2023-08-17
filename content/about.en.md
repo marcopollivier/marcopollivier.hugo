@@ -2,7 +2,7 @@
 title = "About"
 description = "About Marco Ollivier - Software Engineer"
 date = "2022-09-11"
-aliases = ["about-me", "about-ollivier", "contact"]
+aliases = ["about-me", "about-marco-ollivier", "contact"]
 author = "Marco Ollivier"
 +++
 

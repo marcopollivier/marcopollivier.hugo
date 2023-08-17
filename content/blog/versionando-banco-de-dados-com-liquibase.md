@@ -1,7 +1,7 @@
 +++
 authors = ["Marco Ollivier"]
 title = "Versionando seu Banco de Dados com Liquibase"
-date = "2018-01-27"
+date = "2018-01-27" 
 description = "Versionando seu Banco de Dados com Liquibase"
 tags = [
     "liquibase",
